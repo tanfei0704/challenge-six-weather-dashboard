@@ -1,5 +1,5 @@
 # challenge-six-weather-dashboard
-Please visit website "" for more details
+Please visit website "https://tanfei0704.github.io/challenge-six-weather-dashboard/" for more details
 
 # description
 this is a app for user input the city name and get the current weather and 5-days forecast weather report. It will display the weather conditions including temperature, humidity, icon for the weather and wind. Everytime the users searched the city, it will remain the history until user clicking the "clear" button that the history will be removed.
@@ -27,4 +27,5 @@ THEN I am again presented with current and future conditions for that city
 3.open index.html file;
 4.right click on mouse to look through on default broswer;
 
-Or you can directly copy& paste link " " on your broswer.
+Or you can directly copy& paste link " https://tanfei0704.github.io/challenge-six-weather-dashboard/" on your broswer.
+![Screenshot 2023-10-01 at 7 18 26 PM](https://github.com/tanfei0704/challenge-six-weather-dashboard/assets/139478983/c71ca54d-df61-4496-898e-b45ddd85e48b)
