@@ -1,4 +1,4 @@
-var APIkey = "7d1b285353ccacd5326159e04cfab063";
+var APIkey = "9a587384f3a7b9621d246bc205c2af89";
 var cityInputEl = $('#city-input');
 var searchBtn = $('#search-button');
 var clearBtn = $('#clear-button');
