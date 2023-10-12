@@ -28,4 +28,4 @@ THEN I am again presented with current and future conditions for that city
 4.right click on mouse to look through on default broswer;
 
 Or you can directly copy& paste link " https://tanfei0704.github.io/challenge-six-weather-dashboard/" on your broswer.
-![Screenshot 2023-10-01 at 7 18 26 PM](https://github.com/tanfei0704/challenge-six-weather-dashboard/assets/139478983/c71ca54d-df61-4496-898e-b45ddd85e48b)
+
