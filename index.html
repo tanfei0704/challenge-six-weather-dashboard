@@ -9,33 +9,38 @@
 
 <body class="container">
 
-  <div class="row text-center bg-primary text-black">
-    <h1>Weather Dashboard</h1>
-  </div>
+    <div class="row text-center bg-primary text-black">
+        <h1>Weather Dashboard</h1>
+    </div>
 
-  <div class="row">
-      <!--search current city part-->
-      <div class="column col-3">
-        <form>
-          <label class="text-black mt-2">Search for a City:</label>
-          <input class="form-control my-2 text-primary" type="search" placeholder="city name" id="city-input">
-          <button class="btn btn-primary mb-3 bg-success" style="width: 100%" type="submit" id="search-button">Enter City</button>
-        </form>
-        <button class="btn btn-danger mb-3" style="width: 100%" type="submit" id="clear-button">Clear History</button>
-        <div class="border-top border-primary" id="past-searches">
-          <!-- Past city searches will go here  -->
+    <div class="row">
+        <!-- Search current city part -->
+        <div class="column col-3">
+            <form id="weatherForm">
+                <label class="text-black mt-2">Search for a City:</label>
+                <input class="form-control my-2 text-primary" type="search" placeholder="City name" id="cityInput">
+                <button class="btn btn-primary mb-3 bg-success" style="width: 100%" type="submit" id="searchButton">Enter City</button>
+            </form>
+            <button class="btn btn-danger mb-3" style="width: 100%" type="button" id="clearButton">Clear History</button>
+            <div class="border-top border-primary" id="past-searches">
+                <!-- Past city searches will go here  -->
+            </div>
         </div>
-      </div>
 
-      <div class="column col-9">
-        <div class="row" id="currentConditions"></div>
-        <!-- Current city current weather conditions will go here  -->
-        <div class="row" id="fiveDayForecastHeader"></div>
-        <div class="d-flex flex-row flex-wrap justify-content-between" id="fiveDayForecast"></div>
-        <!-- Current city 5 day forecast will go here  -->
-      </div>
+        <div class="column col-9">
+            <!-- Current conditions card -->
+            <div class="card mb-3">
+                <div class="card-header">
+                    Current Conditions
+                </div>
+                <div class="card-body" id="currentConditions"></div>
+            </div>
 
-  </div>
+            <div class="row" id="fiveDayForecastHeader"></div>
+            <div class="d-flex flex-row flex-wrap justify-content-between" id="fiveDayForecast"></div>
+            <!-- Current city 5 day forecast will go here  -->
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -44,7 +49,4 @@
     <script src="./script.js"></script>
 
 </body>
-
-
-
 </html>
